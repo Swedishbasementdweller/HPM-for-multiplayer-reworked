@@ -19,4 +19,4 @@ New features:
  -Requirements to form Gran Colombia lowered from 50 to 25 prestige
  -Requirements to form La Plata lowered from 50 to 25 prestige
  -Higher liferatings in Stockholm (40-45), Gothenburg (35-40), Malmoe (35-40) and Chrstinia (40-42)
- 
+ -Fixed an issue crashing the game for certain players
