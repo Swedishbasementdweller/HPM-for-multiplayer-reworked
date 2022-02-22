@@ -7,7 +7,7 @@ New Features (0.2):
  -New Belgium-Netherlands formable (stolen from GFM)
  -Removed the extra infamy modifier, returning to the basegame (-0.1/month)
  -Iberia can now be formed without fantasy nations having to be enabled
- -Added decision that allows Sweden to annex Norway after having researched Nationalism and Imperialism
+ -Added a decision that allows Sweden to annex Norway after having researched Nationalism and Imperialism
  -Made Canada and Australia playable 1836 as dominions, the UK can then wish to reannex either both, only one of them or keep them as dominions
  -Renamed Palestine to Israel
  -Changed Palestinian province names to their Hebrew versions
