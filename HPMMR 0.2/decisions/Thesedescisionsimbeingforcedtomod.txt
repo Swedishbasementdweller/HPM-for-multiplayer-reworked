@@ -4,11 +4,12 @@ political_decisions = {
         potential = {
             tag = SWE
             civilized = yes
+            exists = NOR
             NOT = { exists = SCA }
         }
 
         allow = {
-			nationalism_imperialism = 1
+			nationalism_n_imperialism = 1
             war = no
             is_mobilised = no
             NOR = {
