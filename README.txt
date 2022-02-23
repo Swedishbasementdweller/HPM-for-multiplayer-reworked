@@ -12,6 +12,7 @@ New Features (0.2):
  -Made Canada and Australia playable 1836 as dominions, the UK can then wish to reannex either both, only one of them or keep them as dominions
  -Renamed Palestine to Israel
  -Changed Palestinian province names to their Hebrew versions
+ -The Netherlands can now get the Walloons as an accepted culture
 
 
 First Update Features:
