@@ -1,10 +1,8 @@
 # HPM for Multiplayer Reworked
 
-Momug forcing me to be his little code twink
-
 New Features (0.2):
 
- -New Belgium-Netherlands formable (stolen from GFM)
+ -New Belgium-Netherlands formable (taken from GFM)
  -Removed the extra infamy modifier, returning to the basegame (-0.1/month)
  -Iberia can now be formed without fantasy nations having to be enabled
  -Iberia can now be formed without having to be a great power
@@ -18,11 +16,11 @@ New Features (0.2):
 First Update Features:
 
  -Added Minor Conquest 
- -Added Demand Capital (stolen from DOD)
- -Added Demand Capital concession (stolen from DOD)
+ -Added Demand Capital (taken from DOD)
+ -Added Demand Capital concession (taken from DOD)
  -Removed that joke at the start of the game
- -Increased the amount of militancy needed for pops to rise up (yall suck at this game)
- -Commie Germany turns red now
+ -Increased the amount of militancy needed for pops to rise up 
+ -Communist Germany turns red now
  -Germany now has the colour of Prussia (its not perfectly the same)
  -Iberia now has a dark orange colour
  -Iberia now has a new monarchist flag (a mix of DODs Spain and the basegames Iberia flag)
