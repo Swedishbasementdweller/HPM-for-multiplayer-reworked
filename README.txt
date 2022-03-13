@@ -1,7 +1,5 @@
 # HPM for Multiplayer Updated
 
-Momug forcing me to be his little code twink
-
 New features:
 
  -Added Minor Conquest 
