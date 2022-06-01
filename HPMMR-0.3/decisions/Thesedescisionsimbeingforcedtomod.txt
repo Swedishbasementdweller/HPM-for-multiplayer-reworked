@@ -1,0 +1,59 @@
+political_decisions = {
+    Unification_of_Sweden_and_Norway = { 
+    picture = sweden_norway
+        potential = {
+            tag = SWE
+            civilized = yes
+            exists = NOR
+            NOT = { exists = SCA }
+        }
+
+        allow = {
+			nationalism_n_imperialism = 1
+            war = no
+            is_mobilised = no
+            NOR = {
+                OR = {
+                    in_sphere = THIS
+                    vassal_of = THIS
+                }
+			}
+        }
+
+        effect = {
+            badbody = 2
+            prestige = 5
+            inherit = NOR
+            any_pop = {
+            limit = { culture = norwegian } 
+            militancy = 2
+            consciousness = 2
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    
+    greek_integration = {
+    picture = switch_to_equality
+        potential = {
+            tag = TUR
+            
+        }
+
+        allow = {
+            nationalism_n_imperialism = 1
+        }
+
+        effect = {
+            add_accepted_culture = greek
+            
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
