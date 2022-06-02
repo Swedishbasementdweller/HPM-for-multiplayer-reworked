@@ -415,6 +415,11 @@ political_decisions = {
                 OR = {
                     in_sphere = THIS
                     vassal_of = THIS
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                        }
+                    }
                 }
             }
         }
