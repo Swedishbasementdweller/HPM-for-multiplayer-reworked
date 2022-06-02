@@ -434,7 +434,7 @@ political_decisions = {
             inherit = BRZ
             prestige = 10
             change_tag = EOP
-            add_accepted_culture = Brazilian
+            add_accepted_culture = brazilian
             any_pop = {
                 limit = { culture = brazilian }                
                 militancy = 3
