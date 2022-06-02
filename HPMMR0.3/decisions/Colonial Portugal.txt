@@ -420,6 +420,12 @@ political_decisions = {
         }
 
         effect = {
+                BRZ = {
+                all_core = { add_core = EOP }
+                }
+                POR = {
+                all_core = { add_core = EOP }
+                }  
             inherit = BRZ
             prestige = 10
             change_tag = EOP
@@ -428,7 +434,7 @@ political_decisions = {
                 limit = { culture = brazilian }                
                 militancy = 3
                 consciousness = 1
-            }
+                }
         }
 
         ai_will_do = {
