@@ -435,4 +435,27 @@ political_decisions = {
             factor = 1
         }
     }
+    
+    
+    move_capital_to_rio = {
+        picture = declare_republic_of_neuchatel
+        alert = no
+        potential = {
+            tag = EOP
+            owns = 2447  #Rio de Janeiro
+            NOT = { capital = 2447 }
+
+        allow = {
+            NOT = { capital = 2447 }
+        }
+
+        effect = {
+            capital = 2447
+            prestige = 5
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
 }
