@@ -11,7 +11,7 @@ New Update Features:
 -National value change decision has been added. It can only be activated once, including for uncivs
 -National values have been rebalanced (https://github.com/SteelRyan/IGoRS/releases/tag/IGoRS-10.2.1)
 -The golden law decision for Brazil can now be taken even after slavery has been outlawed
--Protecting the natives decision (Getting their cultures accepted), has been made easier, now only requiring limited citizenship and can be done with the national value of equality
+-Protecting the natives decision (Getting their cultures accepted), has been made easier, now only requiring limited citizenship and can be done without the national value of equality
 -No more earrape when the game is started
 -Doctrine of Lapse has been reduced from a mean time of 500 months to 50
 -Removed the Kurdish countries from the 1836 start date (istg why were them provinces in the balkans and south america file)
