@@ -18,7 +18,7 @@ New Update Features:
 -Added South American Union formable
 -Fixed Portugal-Brazil's flags and names (btw tag: EOP)
 -Healthcare reforms now all only give a flat 0.001 modifier, with the newly added increasing factor being the supply limit, starting on 5%, and then, 10%, 15,% 20% and lastly 25%
--Fully funding your healthcare on every level will now give you only 0.001 extra pop growth, except for the last two giving 0.002 and 0.003 at full funding respectively
+-Fully funding your healthcare on every level will now give you only 0.001 extra pop growth, except for the last one giving 0.002 at full funding respectively
 -The input effeciency tech modifier of -0.01 in every economic though tech has been changed to -0.02 
 -Market Regulations in the commerce tab now offers an additional 10% increase in iron output
 -Added an invention to three commerce techs (business regulations, market structure and marketregulations), that each add another 0.001 pop growth
