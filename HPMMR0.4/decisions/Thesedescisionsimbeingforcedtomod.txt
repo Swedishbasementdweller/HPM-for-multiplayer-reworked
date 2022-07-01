@@ -70,7 +70,6 @@ political_decisions = {
 
         allow = {
             state_n_government = 1
-            realism = 1
             NOT = {    has_country_modifier = national_confusion }
             war = no
             NOT = { num_of_revolts = 1 }
