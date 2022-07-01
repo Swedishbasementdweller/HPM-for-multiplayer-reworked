@@ -47,7 +47,7 @@ acceptable_health_care_fully_funded = {
             }
         }
     }
-    global_population_growth = 0.002
+    global_population_growth = 0.001
     icon = 19
 }
 
@@ -66,7 +66,7 @@ good_health_care_fully_funded = {
             }
         }
     }
-    global_population_growth = 0.003
+    global_population_growth = 0.002
     icon = 19
 }
 
