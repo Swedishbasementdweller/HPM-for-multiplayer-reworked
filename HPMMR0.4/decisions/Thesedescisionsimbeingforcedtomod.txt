@@ -65,7 +65,7 @@ political_decisions = {
         potential = {
             NOT = {    has_country_flag = nv_change }
             civilized = yes
-            revolution_n_counterrevolution = 1
+            state_n_government = 1
         }
 
         allow = {
