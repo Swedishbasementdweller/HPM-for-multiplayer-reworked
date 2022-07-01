@@ -22,6 +22,7 @@ New Update Features:
 -The input effeciency tech modifier of -0.01 in every economic though tech has been changed to -0.02 
 -Market Regulations in the commerce tab now offers an additional 10% increase in iron output
 -Added an invention to three commerce techs (business regulations, market structure and marketregulations), that each add another 0.001 pop growth
+-Removed some problematic USS code
 
 
 Version 0.3 Features:
