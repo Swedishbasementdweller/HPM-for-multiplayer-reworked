@@ -69,7 +69,7 @@ political_decisions = {
         }
 
         allow = {
-            revolution_n_counterrevolution = 1
+            state_n_government = 1
             realism = 1
             NOT = {    has_country_modifier = national_confusion }
             war = no
