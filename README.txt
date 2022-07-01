@@ -1,6 +1,31 @@
 # HPM for Multiplayer Reworked
 
 New Update Features:
+
+-Further reduced the prestige required for Gran Colombia and La Plata from 10 to 5
+-Lowered militancy from failed CB's from 2.5 to 1
+-Added prestige hits from failed CB's from 0 to base -10
+-The texture pack has been changed to Belle Cartographie (https://www.moddb.com/mods/belle-cartographie)
+-Max steam transporter speed has been increased to 30 (from 16, Dreadnoughts are on 31)
+-No more artillery needed for clipper transports (YES FINALLY)
+-National value change decision has been added. It can only be activated once, including for uncivs
+-National values have been rebalanced (https://github.com/SteelRyan/IGoRS/releases/tag/IGoRS-10.2.1)
+-The golden law decision for Brazil can now be taken even after slavery has been outlawed
+-Protecting the natives decision (Getting their cultures accepted), has been made easier, now only requiring limited citizenship and can be done with the national value of equality
+-No more earrape when the game is started
+-Doctrine of Lapse has been reduced from a mean time of 500 months to 50
+-Removed the Kurdish countries from the 1836 start date (istg why were them provinces in the balkans and south america file)
+-Added South American Union formable
+-Fixed Portugal-Brazil's flags and names (btw tag: EOP)
+-Healthcare reforms now all only give a flat 0.001 modifier, with the newly added increasing factor being the supply limit, starting on 5%, and then, 10%, 15,% 20% and lastly 25%
+-Fully funding your healthcare on every level will now give you only 0.001 extra pop growth, except for the last two giving 0.002 and 0.003 at full funding respectively
+-The input effeciency tech modifier of -0.01 in every economic though tech has been changed to -0.02 
+-Market Regulations in the commerce tab now offers an additional 10% increase in iron output
+-Added an invention to three commerce techs (business regulations, market structure and marketregulations), that each add another 0.001 pop growth
+
+
+Version 0.3 Features:
+
  -Forming Scandinavia does not require great power status anymore
  -Removed jingoism being required to add wargoals
  -Removed prestige and infamy loss from removing someone from your sphere
@@ -30,7 +55,7 @@ New Update Features:
  -Ottomans can accept Greek with Nat & Imp
  -Doubled naval supply range
  -Can increase conscription via decision without being at war (still need military policy)
- -Swiss "culture" has been eradicated and the real ethnicities restored
+ -Swiss culture has been replaced by the historically accurate cultures found in Switzerland
  -Increased the chance of getting gas defence & gas attack
  -Reduced machine parts factory machine parts cost by 90% (from 200 to 20)
  -NGF & Italy can be formed with state & government
