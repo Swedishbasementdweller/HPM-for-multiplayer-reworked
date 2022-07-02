@@ -5,14 +5,15 @@ New Update Features:
 Major fixes:
 -Rebalanced the national values
 -Problematic localization has been fixed
--Added extra 0.001 pop growth flat from reasearching certain commerce techs
+-Removed the 0.001 from the commerce inventions, instead added an extra 0.001 pop growth flat for reasearching the market techs in the commerce tab (Futures stayed, but have been repurposed to add throughput)
 -The speedboats stay!
 -The texture pack has been returned back to HPM
 -Mobilization size impact has been adjusted
+-All healthcare reforms now give a flat 0.001 pop growth modifier
 
 Special thanks to:
--Tuplavee for pulling another all-nighter to fix and  this mod
--Hgramofficial for working on the mod, and coming up with feedback and new ideas
+-Tuplavee for pulling another all-nighter to fix the mod
+-Hgramofficial for working on the mod, coming up with feedback and some new ideas
 -Klink for moderating the work
 
 
