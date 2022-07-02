@@ -2,6 +2,22 @@
 
 New Update Features:
 
+Major fixes:
+-Rebalanced the national values
+-Problematic localization has been fixed
+-Added extra 0.001 pop growth flat from reasearching certain commerce techs
+-The speedboats stay!
+-The texture pack has been returned back to HPM
+-Mobilization size impact has been adjusted
+
+Special thanks to:
+-Tuplavee for pulling another all-nighter to fix and  this mod
+-Hgramofficial for working on the mod, and coming up with feedback and new ideas
+-Klink for moderating the work
+
+
+Version 0.4 Features:
+
 -Further reduced the prestige required for Gran Colombia and La Plata from 10 to 5
 -Lowered militancy from failed CB's from 2.5 to 1
 -Added prestige hits from failed CB's from 0 to base -10
@@ -18,11 +34,10 @@ New Update Features:
 -Added South American Union formable
 -Fixed Portugal-Brazil's flags and names (btw tag: EOP)
 -Healthcare reforms now all only give a flat 0.001 modifier, with the newly added increasing factor being the supply limit, starting on 5%, and then, 10%, 15,% 20% and lastly 25%
--Fully funding your healthcare on every level will now give you only 0.001 extra pop growth, except for the last one giving 0.002 at full funding respectively
+-Fully funding your healthcare on every level will now give you only 0.001 extra pop growth, except for the last two giving 0.002 and 0.003 at full funding respectively
 -The input effeciency tech modifier of -0.01 in every economic though tech has been changed to -0.02 
 -Market Regulations in the commerce tab now offers an additional 10% increase in iron output
 -Added an invention to three commerce techs (business regulations, market structure and marketregulations), that each add another 0.001 pop growth
--Removed some problematic USS code
 
 
 Version 0.3 Features:
