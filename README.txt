@@ -1,5 +1,10 @@
 # HPM for Multiplayer Reworked
 
+Hotpatch 0.5:
+
+Rebel war exhaustion updated! No more WE from colonial rebels
+
+
 New Update Features:
 
 Major fixes:
@@ -112,4 +117,3 @@ First Update Features:
  -Requirements to form La Plata lowered from 50 to 25 prestige
  -Higher liferatings in Stockholm (40-45), Gothenburg (35-40), Malmoe (35-40) and Christinia (40-42)
  
- Kajantoalt real????
