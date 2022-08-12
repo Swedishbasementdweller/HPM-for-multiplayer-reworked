@@ -1,0 +1,293 @@
+political_decisions = {
+    Unification_of_Sweden_and_Norway = { 
+    picture = sweden_norway
+        potential = {
+            tag = SWE
+            civilized = yes
+            exists = NOR
+            NOT = { exists = SCA }
+        }
+
+        allow = {
+			nationalism_n_imperialism = 1
+            war = no
+            is_mobilised = no
+            NOR = {
+                OR = {
+                    in_sphere = THIS
+                    vassal_of = THIS
+                }
+			}
+        }
+
+        effect = {
+            badbody = 2
+            prestige = 5
+            inherit = NOR
+            any_pop = {
+            limit = { culture = norwegian } 
+            militancy = 2
+            consciousness = 2
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    integrate_central_america = {
+      picture = switch_to_equality
+        potential = {
+            OR = {
+                tag = CLM
+                tag = ECU
+                tag = VNZ
+                tag = GCO
+                tag = MEX
+            }
+       NOT = { 
+       has_country_flag = centralamerican_accepted
+             }
+        }
+
+        allow = {
+            state_n_government = 1
+            NOT = { exists = UCA }
+            money = 50000
+            any_owned_province = { any_pop = { has_pop_culture = central_american } }
+        }
+
+        effect = {
+            add_accepted_culture = central_american
+            set_country_flag = centralamerican_accepted
+            treasury = -50000
+            any_pop = {
+                limit = { has_pop_culture = central_american }
+                militancy = -7
+                consciousness = -4
+                money = 10
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+      }
+    }
+
+    annex_dominions_on = {
+        alert = no
+        picture = national_value
+        potential = {
+            tag = ENG
+             OR = {
+                    exists = AST
+                    exists = CAN
+                    exists = SAF
+                }
+                NOT = { has_country_flag = annexing_dominions }
+        }
+
+        allow = {
+            NOT = {    has_country_modifier = national_confusion }
+            war = no
+        }
+
+        effect = { set_country_flag = annexing_dominions }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    annex_dominions_off = {
+        alert = no
+        picture = national_value
+        potential = {
+            has_country_flag = annexing_dominions
+        }
+
+        allow = { }
+
+        effect = { clr_country_flag = annexing_dominions }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    annex_can = { 
+        alert = no
+        picture = national_value
+        potential = {
+            exists = CAN
+            has_country_flag = annexing_dominions
+        }
+
+        allow = { }
+
+         effect = {
+          inherit = CAN
+         }
+
+        ai_will_do = { factor = 0 }
+    }
+
+   annex_ast = { 
+        alert = no
+        picture = national_value
+        potential = {
+            exists = AST
+            has_country_flag = annexing_dominions
+        }
+
+        allow = { }
+
+         effect = {
+          inherit = AST
+         }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    annex_saf = { 
+        alert = no
+        picture = national_value
+        potential = {
+            exists = SAF
+            has_country_flag = annexing_dominions
+        }
+
+        allow = { }
+
+         effect = {
+          inherit = SAF
+         }
+
+        ai_will_do = { factor = 0 }
+    }
+}
+
+political_decisions = {
+
+    puppet_dominions_on = {
+        alert = no
+        picture = national_value
+        potential = {
+            tag = ENG
+             OR = {
+                    exists = AST
+                    exists = CAN
+                    exists = SAF
+                }
+                NOT = { has_country_flag = puppeting_dominions }
+        }
+
+        allow = {
+            NOT = {    has_country_modifier = national_confusion }
+            war = no
+        }
+
+        effect = { set_country_flag = puppeting_dominions }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    puppet_dominions_off = {
+        alert = no
+        picture = national_value
+        potential = {
+            has_country_flag = puppeting_dominions
+        }
+
+        allow = { }
+
+        effect = { clr_country_flag = puppeting_dominions }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    puppet_can = { 
+        alert = no
+        picture = national_value
+        potential = {
+            exists = CAN
+            has_country_flag = puppeting_dominions
+        }
+
+        allow = { }
+
+         effect = {
+          create_vassal = CAN
+         }
+
+        ai_will_do = { factor = 0 }
+   }
+
+    puppet_ast = { 
+        alert = no
+        picture = national_value
+        potential = {
+            exists = AST
+            has_country_flag = puppeting_dominions
+        }
+
+        allow = { }
+
+         effect = {
+          create_vassal = AST
+         }
+
+        ai_will_do = { factor = 0 }
+   }
+
+   puppet_saf = { 
+        alert = no
+        picture = national_value
+        potential = {
+            exists = SAF
+            has_country_flag = puppeting_dominions
+        }
+
+        allow = { }
+
+         effect = {
+          create_vassal = SAF
+         }
+
+        ai_will_do = { factor = 0 }
+     }
+
+       integrate_the_bulgarians = {
+      picture = greater_bulgaria
+        potential = {
+                tag = TUR
+       NOT = { 
+       has_country_flag = bulgarian_accepted
+             }
+        }
+
+        allow = {
+            state_n_government = 1
+            NOT = { exists = BUL }
+            money = 500000
+            any_owned_province = { any_pop = { has_pop_culture = bulgarian } }
+        }
+
+        effect = {
+            add_accepted_culture = bulgarian
+            set_country_flag = bulgarian_accepted
+            treasury = -500000
+            any_pop = {
+                limit = { has_pop_culture = bulgarian }
+                militancy = 2
+                consciousness = 2
+                money = 5
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+      }
+    }
+}
