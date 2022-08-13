@@ -11,7 +11,6 @@ New Update Features:
 
 -Localization of German Alsace-Lorraine has been fixed (Elsass-Lothringen, Strassburg) (NationalUnification.txt)
 -Removed the decision for Ukraine and Belarus to remove their main culture group from other countries (UKR.txt)
--Removed South America formable (USS_d.txt, USS.tga, United States of South America.txt, USS_I.csv, USS flags)
 -Fixed Central American integration decision, now requiring 50K, having a province with Central American pops and that the USCA does not exist (Thesedecisionsimbeingforcedtomod.txt)
 -Dominions start sphered now (ENG_oob.txt), and allied to the UK (alliances.txt)
 -Dominions do not start as vassals now (PuppetStates.txt)
