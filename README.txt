@@ -7,11 +7,6 @@ Special thanks to:
 -Hgramofficial
 -Klink
 
-Hotpatch:
-
-Fixed defines.lua and issues.txt
-
-
 New Update Features:
 
 -Localization of German Alsace-Lorraine has been fixed (Elsass-Lothringen, Strassburg) (NationalUnification.txt)
@@ -33,7 +28,7 @@ New Update Features:
 -Freeing vassals does not cost any prestige anymore (gtfo.txt)
 -Dominions will not ask for independence anymore (trigger date has been changed to 1950) (BritishDominions.txt) (CANFlavor.txt)
 -Added Bulgarian integration decision for the Ottomans, requiring 500K, having a province with Bulgarian pops and that Bulgaria does not exist
-
+-Economy adjustments by Tuplavee, may result in temporary instability at start, if so keep going
 
 Version 0.5 Features:
 
