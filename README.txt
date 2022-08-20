@@ -7,6 +7,12 @@ Special thanks to:
 -Hgramofficial
 -Klink
 
+
+Hotfix 0.6:
+
+???
+
+
 New Update Features:
 
 -Localization of German Alsace-Lorraine has been fixed (Elsass-Lothringen, Strassburg) (NationalUnification.txt)
